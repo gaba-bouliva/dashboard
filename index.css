@@ -4,6 +4,7 @@ body{
   background-color: rgb(229, 242, 246);
   padding: 0px;
   margin: 0px;
+  width: 100%;
   font-family: 'roboto';
 }
 
@@ -39,17 +40,105 @@ body{
 
 .sidebar{
   min-width: 20%;
+  
   height: 100%;
   background-color: rgb(13, 117, 151);
   height: 100vh;
 }
 .logo{
   display: flex;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 div#link > a{
   text-decoration: none;
   color: #fff;
   font-family: "Roboto";
+}
+div.main{
+  width: 100%;    
+}
+div.header > div.left-content{
+
+}
+div.header{
+  background-color: #fff;
+  display: flex;
+  box-shadow: 1px 2px rgb(229, 226, 226);
+  min-width: 600px;
+}
+div.header>div.left-content{
+  margin-left: 40px;
+  margin-top: 20px;
+margin-right: 10px;
+}
+
+#user-avatar{
+ height: 60px;
+ margin-right: 20px;
+}
+
+#sm-user-avatar{
+ height: 40px;
+ margin-right: 10px; 
+}
+ 
+
+div.user-info, div.right-user-info{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+div.right-user-info{
+display: flex;
+justify-content: end;
+margin-top: 10px;
+}
+div.search-bar{
+ display: flex;
+ width: 45vw;
+}
+div.search-bar>i.search-bar{
+  margin-right: 10px;
+  
+}
+div.search-bar>#search{
+  width: 100%;
+  height: 20px;
+  border-radius: 15px;
+  background-color: rgb(245, 242, 242);
+  padding-left: 10px;
+
+}
+div.header>div.right-content{
+  /* display: flex; */
+  width: 100%;
+}
+div.right-user-info>div>i.md-bell{
+  margin-right: 20px;
+  
+}
+span.user-name{
+  margin-right: 40px;
+  margin-left: 10px;
+}
+
+div.user-actions{
+  display: flex;
+  height: 100%;
+  justify-content: end;
+  align-items: center;
+  margin-right: 40px;
+}
+
+div.user-actions>button{
+  height: 35px;
+  width: 80px;
+  background-color: rgb(5, 142, 188);
+  color: #fff;
+  border: 0px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  cursor: pointer;
 }
