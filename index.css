@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body{
-  background-color: pink;
+  background-color: rgb(229, 242, 246);
+  padding: 0px;
+  margin: 0px;
+  font-family: 'roboto';
+}
+
+.logo, .md-dashboard{
+  color: #fff;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.top-links, .bottom-links{
+  margin-left: 10px;
+}
+
+.bottom-links{
+  margin-top: 30px;
+}
+
+.md-link{
+  color: #fff;
+  margin: 10px;
+}
+
+#link{
+  display: flex;
+  align-items: center;
+}
+.container{
+ display: flex;
+
+}
+
+.sidebar{
+  min-width: 20%;
+  height: 100%;
+  background-color: rgb(13, 117, 151);
+  height: 100vh;
+}
+.logo{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+div#link > a{
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto";
 }
